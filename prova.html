@@ -1,0 +1,25 @@
+<html>
+<script>
+function main() {
+  boxvalue = document.getElementById('box').value;
+  reverse(boxvalue);
+  return false;
+}
+function reverse(str){
+
+  var splitString = str.split("");
+  var reverseArray = splitString.reverse();
+  var joinArray = reverseArray.join("");
+
+  document.getElementById("reverse").innerHTML = joinArray;
+}
+</script>
+<body>
+
+    <form onsubmit="return main()">
+        <input type="text" id="box">
+        <input type="submit" value="Submit">
+        <p id="reverse"></p>
+       </form>
+</body>
+</html>
