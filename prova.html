@@ -1,4 +1,8 @@
 <html>
+<head>
+  <link rel="stylesheet" href="master.css">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+</head>
 <script>
 function main() {
   boxvalue = document.getElementById('box').value;
@@ -15,11 +19,12 @@ function reverse(str){
 }
 </script>
 <body>
-
-    <form onsubmit="return main()">
-        <input type="text" id="box">
-        <input type="submit" value="Submit">
+<div class="main_">
+    <form class="campo_in" onsubmit="return main()">
+        <input type="text" id="box" class="testo_in">
+        <input type="submit" value="Submit" class="pulsante" class="w3-button w3-black w3-round-large">
         <p id="reverse"></p>
-       </form>
+    </form>
+</div>
 </body>
 </html>
