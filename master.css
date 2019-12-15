@@ -9,11 +9,17 @@ position: absolute;
 
 
 body{
-  background-color: #DBC5F7;
+  //background-color: #353775;
+background-image: radial-gradient(#fafafa 5%, transparent 5%),
+     radial-gradient(#fafafa 5%, transparent 5%);
+  background-color: #2d2563;
+  background-position: 0 0, 50px 50px;
+  background-size: 25px 25px;
+  width: 100%;
 }
 .main_{
 	border-radius: 32px;
-  background-color: #7B4BB7;
+  background-color: #5417b3;
   position: absolute;
   top: 8%;
   left: 20%;
@@ -24,14 +30,15 @@ body{
 }
 .main_:hover{
   padding: 10px;
-  box-shadow: 3px 10px #3d1659;
+  box-shadow: 3px 10px #2c1452;
   -webkit-transition-duration: 0.4s;
   transition-duration: 0.4s;
 }
 .campo_in{
 }
 .testo_in{
-	background-color: #7B4BB7;
+	color: white;
+	background-color: #5417b3;
 	border: none;
   border-bottom: 2px solid #DBC5F7;
   position: absolute;
@@ -43,10 +50,7 @@ body{
   width: 75%;
 }
 .testo_in:focus{
-	background-color: #7B4BB7;
-}
-.testo_in:suggested{
-	background-color: #7B4BB7;
+	background-color: #5417b3;
 }
 .pulsante{
   background-color: #DBC5F7;
@@ -83,9 +87,10 @@ p{
   font-size: 24px; 
   -webkit-transition-duration: 0.4s;
   transition-duration: 0.4s;
+  color: white;
 }
 p:hover{
-	text-shadow: 1px 1px #ffffff;
+	text-shadow: 3px 2px #7a7a7a;
 	-webkit-transition-duration: 0.4s;
   transition-duration: 0.4s;
 }
