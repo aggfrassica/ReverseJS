@@ -38,7 +38,7 @@ background-image: radial-gradient(#fafafa 5%, transparent 5%),
 }
 .testo_in{
 	color: white;
-	background-color: #5417b3;
+	background-color: inherit;
 	border: none;
   border-bottom: 2px solid #DBC5F7;
   position: absolute;
@@ -50,7 +50,7 @@ background-image: radial-gradient(#fafafa 5%, transparent 5%),
   width: 75%;
 }
 .testo_in:focus{
-	background-color: #5417b3;
+	background-color: inherit;
 }
 .pulsante{
   background-color: #DBC5F7;
